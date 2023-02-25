@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Login </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p id="login-title">
+      Login
+    </p>
+    <div id="login-frame">
+      <div id="container">
+        <div id="gap"></div>
+        <p id="username-title" class="login-frame-p">
+          Username
+        </p>
+        <input id="username-input" type="text" >
+        <div id="username-underline" class="underline"></div>
+        <p id="invalid-username-title" class="login-frame-invalid-p">
+          Invalid Username
+        </p>
+        <!---->
+        <div id="gap-2"></div>
+        <p id="password-title" class="login-frame-p">
+          Password
+        </p>
+        <input id="password-input" type="text" >
+        <div id="password-underline" class="underline"></div>
+        <p id="invalid-password-title" class="login-frame-invalid-p">
+          Invalid Password
+        </p>
+        <button onclick="OnContinue()" id="continue">
+          Continue
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="code.js"></script>
+</html>

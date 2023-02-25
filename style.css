@@ -3,7 +3,7 @@
 body{
   background-color: black;
 
-  background-image: url('BG.jpg');
+  background-image: url('/BG.JPG');
   background-repeat: no-repeat;  
   background-attachment: scroll;  
   background-position: 0% 0%;
